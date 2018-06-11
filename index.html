@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A portfolio">
+    <meta name="author" content="Logan Sheptycki">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Logan Sheptycki Portfolio</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/PortfolioCSS-main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/Chart.js"></script>
+
+</head>
+<body class="wrapper">
+    <div class="inner"> 
+
+        <!-- Navigation Menu Ontop-->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid justify-content-center">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" style='color: white; font-size: 275%; font-family: inherit;'>Logan Sheptycki</a>
+                    </div>
+                <ul class="nav navbar-nav" style="display: inline; font-size: 150%;">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="smallprograms.html">Small Programs</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Welcome Page / Home -->
+        <div id="description" class="div-portfolio-1">
+                <h1>Logan Sheptycki</h1>
+                <p> Student at the University of Alberta, finishing a Bachelor of Science Majoring in Computer Science.
+                My main focus is currently front-end web development, but plan on improving my skills with machine learning and artificial intelligence
+                to help automate and make jobs more efficient.</p>
+                <p> I am passionate about learning and with any given opportunity to do so I can thrive. Current topics of personal study are Javascript and its various libraries and frameworks such as react and angular, as well as My SQL and MongoDB.</p>
+           
+        </div>
+
+        <!--Skill Chart Section-->
+        <div id="skillchart" class="div-portfolio-2">
+                <h3 style="padding-bottom: 2.5%;">These are my current levels of understanding of Front-End, Design, Programming Languages, and some common Concepts.</h3>
+                <div class="graphs">
+                    <div class="row" style="width: 80vw; height: 40vh; padding-left: 0vw;">
+                        
+                        <div class="col-sm" style="height: 40vh; width: 40vw;">
+                            <canvas id="myChart"style="padding-top: 20px; width:20vw; height:20vh;"></canvas>
+                            <script src="js/FrontEnd-Chart.js"></script>
+                        </div>
+                    
+                        <div class="col-sm"  style="height: 40vh; width: 40vw;">
+                            <canvas id="photoChart" style="padding-top: 20px; width:20vw; height:20vh;"></canvas>
+                            <script src="js/Photo-Chart.js"></script>
+                        </div>
+                        <div class="col-sm"  style="height: 40vh; width: 40vw;">
+                                <canvas id="programmingChart" style="padding-top: 20px; width:20vw; height:20vh;"></canvas>
+                                <script src="js/Programming-Chart.js"></script>
+                        </div>
+
+                        <div class="col-sm"  style="height: 40vh; width: 40vw;">
+                                <canvas id="conceptChart" style="padding-top: 30px; width:20vw; height:20vh;"></canvas>
+                                <script src="js/Concept-Chart.js"></script>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Work Experience-->
+        <div class="div-portfolio-3">
+            <div id="flexing" width=100vw;>
+                <div class="col">
+                    <div id="workxp">
+                        <div id="tc">
+                            <h1>Work Experience</h1>
+                            <h3>Traffic Control || TC Infrastructure April 2016 - Current</h3>
+                            <p>Creating and protect construction zones to ensure safety of workers, pedestrians, and drivers.
+                            Learned to work under pressure, the importance of focus, and communication.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div id="education"> 
+                        <h1>Education</h1>
+                        <div id="macewan">
+                            <h3>Grant Macewan University September 2015 - April 2017 </h3>
+                            <p> Computer Science, course work mainly best programming practices and basic HTML/CSS</p>
+                        </div>
+                        <div id="uofa">
+                            <h3>University of Alberta September 2017-April 2019 (expected)</h3>
+                            <p>Course work includes but is not limited to: Formal Logic and Systems, Object Oriented Programming, Data Structures, Statistics, Concepts, and advanced Python.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CONTACT-->
+        <div class="div-portfolio-4">
+            <h1 style="font-size: 200%;">Contact</h1>
+            <p>Feel free to email me at: <a href="mailto:logan.sheptycki@gmail.com">logan.sheptycki@gmail.com</a></p>
+            <p>You can also call or text (780)-999-2991</p>
+        </div>
+    </div>
+
+</body>
+</html>

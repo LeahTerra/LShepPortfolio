@@ -1,0 +1,172 @@
+/* Wrapper for entire page */
+.wrapper {
+    background: #fad3eb;
+    font-family: inherit;
+}
+
+/* Control for all the inner content */
+.inner {
+    
+}
+
+
+/* Portfolio divisions */
+/* Welcome Page, First Division */
+
+.div-portfolio-1 {
+    background: linear-gradient(to top,#cadcff,#fad3eb);
+    padding-top: 80px;
+    position: relative;
+    display: block;
+    height: 100vh;
+    width: 100%;
+}
+.div-portfolio-1 h1, .div-portfolio-1 p {
+    color:black;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 5vh;
+}
+.div-portfolio-1 h1{
+    font-size: 700%;
+}
+.div-portfolio-1 p {
+    font-size: 350%;
+}
+
+
+/* Second Division */
+
+.div-portfolio-2 {
+    background: linear-gradient(to bottom,#cadcff,#c0dee1);
+    position: relative;
+    display: block;
+    height: 110vh;
+    width: 100%;
+    display: block;
+    font-size: 150%;
+}
+.div-portfolio-2 h3, .div-portfolio-2 p {
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 300%;
+    text-align: left;
+    padding-top: 3vw;
+    padding-left: 10vw;
+    
+}
+.carousel-inner {
+    height: 80vh;
+    width: 100%;
+  }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 5vh;
+}
+
+.graphs {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+/* Third Division */
+.div-portfolio-3 {
+    background: linear-gradient(to bottom,#c0dee1,hsl(278, 31%, 61%));
+    position: relative;
+    display: block;
+    height: 110%;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    
+}
+.div-portfolio-3 h1, .div-portfolio-3 p, .div-portfolio-3 h3 {
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 500%;
+    padding-left: 10%;
+    
+}
+.div-portfolio-3 h1{
+    padding-top: 100px;
+    font-size: 500%;
+    padding-left: 10vw;
+    padding-bottom: 3vh;
+}
+.div-portfolio-3 p {
+    font-size: 150%;
+    padding-top: 20px;
+    padding-left: 10vw;
+}
+
+.div-portfolio-3 h3 {
+    font-size: 250%;
+    padding-left: 10vw;
+    
+}
+
+
+
+#flexing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    font-size: 135%;
+}
+#workxp h1 , #workxp h3{
+    text-align: left;
+    padding-top: 100px;
+}
+#workxp p {
+    padding-bottom: 10vw;
+}
+#education {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-right: 10vw;
+}
+#education p {
+    padding-bottom: 3vw;
+}
+#macewan h3{
+    color: #800020;
+}
+#macewan p{
+    color: rgb(248, 225, 194);
+}
+#uofa h3 {
+    color: green;
+}
+#uofa p {
+    color: gold;
+}
+#tc h3 {
+    color: darkblue;
+}
+#tc p {
+    color: rgb(248, 225, 194);
+}
+
+
+
+/* Contact Div */
+.div-portfolio-4 {
+    background: #333;
+    color: white;
+    font-weight: 600;
+    font-size: 250%;
+    position: relative;
+    display: block;
+    height: 25vh;
+    width: 100vw;
+    padding-top: 40px;
+    text-align: center;
+}
