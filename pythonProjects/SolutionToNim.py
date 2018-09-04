@@ -8,7 +8,7 @@
 #    using recursive methods. Enjoy it, but I suggest not going over 12 due
 #    to the exponential nature of the program.
 #
-#    This is made by Logan Sheptycki
+#    This is made by Leah Sheptycki
 #
 #------------------| MINMAX |--------------------------------------------------|
 
